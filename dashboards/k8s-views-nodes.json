@@ -326,7 +326,7 @@
             {
               "targetBlank": true,
               "title": "Pod details",
-              "url": "/d/k8s_views_pods/kubernetes-views-pods?${datasource:queryparam}&$var-cluster=${__data.fields.cluster}&var-namespace=${__data.fields.namespace}&var-pod=${__data.fields.pod}&${resolution:queryparam}&${__url_time_range}"
+              "url": "/d/k8s_views_pods/kubernetes-views-pods?${datasource:queryparam}&var-cluster=${__data.fields.cluster}&var-namespace=${__data.fields.namespace}&var-pod=${__data.fields.pod}&${resolution:queryparam}&${__url_time_range}"
             }
           ],
           "mappings": [],
