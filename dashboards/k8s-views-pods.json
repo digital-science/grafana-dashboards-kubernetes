@@ -178,7 +178,7 @@
           "links": [
             {
               "title": "",
-              "url": "/d/k8s_views_nodes/kubernetes-views-nodes?var-datasource=${datasource}&var-cluster=${__data.fields.cluster}&var-node=${__data.fields.node}"
+              "url": "/d/k8s_views_nodes/kubernetes-views-nodes?var-datasource=${datasource}&var-cluster=${cluster}&var-node=${__data.fields.node}"
             }
           ],
           "mappings": [],
