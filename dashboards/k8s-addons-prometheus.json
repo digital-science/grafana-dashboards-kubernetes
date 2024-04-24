@@ -3003,7 +3003,7 @@
       "type": "timeseries"
     }
   ],
-  "refresh": "30s",
+  "refresh": "60s",
   "revision": 1,
   "schemaVersion": 38,
   "style": "dark",
@@ -3091,8 +3091,8 @@
       {
         "current": {
           "selected": false,
-          "text": "30s",
-          "value": "30s"
+          "text": "60s",
+          "value": "60s"
         },
         "hide": 0,
         "includeAll": false,
@@ -3110,12 +3110,12 @@
             "value": "15s"
           },
           {
-            "selected": true,
+            "selected": false,
             "text": "30s",
             "value": "30s"
           },
           {
-            "selected": false,
+            "selected": true,
             "text": "1m",
             "value": "1m"
           },
