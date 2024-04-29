@@ -296,7 +296,7 @@
             "uid": "${datasource}"
           },
           "exemplar": true,
-          "expr": "sum(kube_pod_info{node=\"$node\", cluster=\"$cluster\"})",
+          "expr": "sum(kube_pod_info{instance=\"$node\", cluster=\"$cluster\"})",
           "interval": "",
           "legendFormat": "",
           "refId": "A"
@@ -436,7 +436,7 @@
             "uid": "${datasource}"
           },
           "exemplar": true,
-          "expr": "kube_pod_info{node=\"$node\", cluster=\"$cluster\"}",
+          "expr": "kube_pod_info{instance=\"$node\", cluster=\"$cluster\"}",
           "format": "table",
           "interval": "",
           "legendFormat": "",
